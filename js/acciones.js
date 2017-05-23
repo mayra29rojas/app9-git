@@ -39,7 +39,7 @@ function getPosition(){
 };
 
   function onError(error) {
-	alert('code:'   + error.code  + '\n'+ 'message:'  + error.message  + '\n');
+	alert('code:'   + error.code  +'\n'+'message:'+error.message+'\n');
   }
 }
 
@@ -66,6 +66,6 @@ $('#timestamp').html(position.timestamp);
  };
  
  function onError(error) {
-	 alert('code:' + error.code + '\n' +'message:' + error.message +'\n');
+	 alert('code:' + error.code + '\n' +'message:'+ error.message+'\n');
   }
 }
